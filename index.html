@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="assets/styles/tailwind.css">
+    <link rel="stylesheet" href="assets/styles/index.css">
+    <title>Latihan Tailwind</title>
+</head>
+<body class="bg-purple-300">
+
+    <!-- container -->
+    <div class="max-w-7xl pt-5 mx-auto px-4">
+        <!-- header -->
+        <div class="mb-20 lg:h-screen">
+            <!-- header -->
+            <div class="flex flex-wrap items-center justify-between ">
+                <!-- text brand -->
+                <h1 class="text-2xl text-center font-semibold">Sasuke<span class="font-normal">home</span></h1>
+                <!-- list header -->
+                <ul class="hidden md:flex items-center text-base sm:text-xl font-normal">
+                    <li class="mr-4 sm:mt-0 mt-3 sm:mr-14 border-b-2 border-transparent hover:border-purple hover:pb-2 hover:text-purple duration-300 cursor-pointer">Passions</li>
+                    <li class="mr-4 sm:mt-0 mt-3 sm:mr-14 border-b-2 border-transparent hover:border-purple hover:pb-2 hover:text-purple duration-300 cursor-pointer">Activities</li>
+                    <li class="mt-3">
+                        <button class="font-semibold text-white bg-gradient-to-r from-purple1 to-purple2 rounded-lg px-6 py-2">Contact Me</button>
+                    </li>
+                </ul>
+                 <!-- mobile button goes here -->
+                <div class="buttonclick md:hidden flex items-center">
+                    <button class="mobile-menu-button">
+                    <svg class="w-6 h-6" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16M4 18h16" />
+                    </svg>
+                    </button>
+                </div>
+            </div>
+
+             <!-- mobile menu -->
+            <div class="menu-mobile mobile-menu hidden md:hidden">
+                <a href="#" class="block py-3 px-4 text-sm hover:bg-gray-200">Passions</a>
+                <a href="#" class="block py-3 px-4 text-sm hover:bg-gray-200">Activities</a>
+                <a href="#" class="block py-2 px-4 text-sm hover:bg-gray-200">Contact Me</a>
+            </div>
+
+
+            <!-- jumbotron -->
+            <div class="flex flex-col sm:flex-row items-start sm:items-center justify-between mt-52">
+                <div class="-mt-32">
+                    <!-- text -->
+                    <h1 class="text-2xl sm:text-7xl">Hi! I am </h1>
+                    <h1 class="text-3xl sm:text-9xl py-2 font-semibold">Sasuke</h1>
+                    <button class="font-semibold text-white bg-gradient-to-r from-purple1 to-purple2 rounded-lg px-6 py-2">
+                        Join Akatsuki
+                    </button>
+                </div>
+                <!-- image -->
+                <div class="relative left-1/2 sm:left-0 transform sm:transform-none -translate-x-1/2 flex justify-end items-center mt-14 sm:mt-0">
+                    <!-- image start3 blue -->
+                    <img class="absolute top-7 right-9 lg:top-10 lg:-right-7" src="assets/image/Star 3.png" alt="">
+                    <!-- image start4 yellow-->
+                    <img class="absolute -top-2 lg:-top-5" src="assets/image/Star 4.png" alt="">
+                    <!-- image start3 blue -->
+                    <img class="absolute bottom-8 -left-1 lg:bottom-10 lg:-left-7" src="assets/image/Star 3.png" alt="">
+                    <!-- image start4 yellow-->
+                    <img class="absolute bottom-5 left:0 lg:-bottom-5 lg:left-0" src="assets/image/Star 4.png" alt="">
+                    <!-- image people -->
+                    <img class="w-11/12 relative right-5" src="assets/image/sasuke.png" alt="">
+                </div>
+            </div>
+        </div>
+
+        <!-- additional passion -->
+        <div class="mb-20">
+            <h1 class="text-4xl text-center">Clan Angkatan <span class="font-semibold">Sasuke</span></h1>
+            <div class="grid grid-cols-12 lg:gap-10 xl:gap-20 mt-10">
+                <div class="col-span-12 lg:col-span-4 mt-10 lg:mt-0 shadow-card02 rounded-2xl p-9 bg-gray-50   hover:text-purple duration-200 cursor-pointer">
+                    <img class="w-80 lg:w-11/12 h-48 ml-auto mr-auto" src="assets/image/akatsuki.jpg" alt="">
+                    <h1 class="font-semibold text-2xl text-center">Akatsuki <span class="font-normal">Madara</span></h1>
+                    <p class="text-lg text-center">Akatsuki 20/20/20</p>
+                </div>
+                <div class="col-span-12 lg:col-span-4 mt-10 lg:mt-0 shadow-card02 rounded-2xl p-9 bg-gray-50 hover:text-purple duration-200 cursor-pointer">
+                    <img class="w-80 lg:w-11/12 h-48 ml-auto mr-auto"src="assets/image/akatsuki2.jpg" alt="">
+                    <h1 class="font-semibold text-2xl text-center">Madara <span class="font-normal">Madara</span></h1>
+                    <p class="text-lg text-center">Akatsuki 20/20/20</p>
+                </div>
+                <div class="col-span-12 lg:col-span-4 mt-10 lg:mt-0 shadow-card02 rounded-2xl p-9 bg-gray-50 hover:text-purple duration-200 cursor-pointer">
+                    <img class="w-80 lg:w-11/12 h-48 ml-auto mr-auto" src="assets/image/akatsuki3.jpg" alt="">
+                    <h1 class="font-semibold text-2xl text-center">Uchiha <span class="font-normal">Madara</span></h1>
+                    <p class="text-lg text-center">Akatsuki 20/20/20</p>
+                </div>
+            </div>
+        </div>
+
+        <!-- my daily activies -->
+        <div class="">
+            <h1 class="text-4xl text-center">Tugas Akatsuki <span class="font-semibold">Clan Sasuke</span></h1>
+            <div class="mt-8 flex flex-col sm:flex-row items-center justify-center shadow-card02 w-full lg:w-10/12 rounded-2xl bg-gray-50 py-6 px-6">
+                <img class="w-40 rounded-lg lg:mr-10 sm:ml-auto sm:mr-3" src="assets/image/akatsuki2.jpg" alt="">
+                <div>
+                    <h1 class="font-semibold text-2xl text-center">Akatsuki adalah nama sebuah kelompok antagonis.</h1>
+                    <p class="font-normal text-sm text-center sm:text-left  sm:text-lg">Akatsuki (暁 , "Fajar") dibentuk dan diberi nama pertama kali oleh Yahiko saat matahari terbit, dan bermakna pencetus gerakan perubahan bagi dunia shinobi di Amegakure.</p>
+                </div>
+            </div>
+            <div class="mt-8 flex flex-col sm:flex-row items-center justify-center shadow-card02 w-full lg:w-10/12 rounded-2xl bg-gray-50 py-6 px-6">
+                <img class="w-40 rounded-lg lg:mr-10 sm:ml-auto sm:mr-3" src="assets/image/foto-sasuke-akatsuki-27.jpg" alt="">
+                <div>
+                    <h1 class="font-semibold text-2xl text-center">Akatsuki adalah nama sebuah kelompok antagonis.</h1>
+                    <p class="font-normal text-sm text-center sm:text-left sm:text-lg">Akatsuki (暁 , "Fajar") dibentuk dan diberi nama pertama kali oleh Yahiko saat matahari terbit, dan bermakna pencetus gerakan perubahan bagi dunia shinobi di Amegakure.</p>
+                </div>
+            </div>
+            <div class="mt-8 flex flex-col sm:flex-row items-center justify-center shadow-card02 w-full lg:w-10/12 rounded-2xl bg-gray-50 py-6 px-6">
+                <img class="w-40 rounded-lg lg:mr-10 sm:ml-auto sm:mr-3" src="assets/image/akatsuki3.jpg" alt="">
+                <div>
+                    <h1 class="font-semibold text-2xl text-center">Akatsuki adalah nama sebuah kelompok antagonis.</h1>
+                    <p class="font-normal text-sm text-center sm:text-left sm:text-lg">Akatsuki (暁 , "Fajar") dibentuk dan diberi nama pertama kali oleh Yahiko saat matahari terbit, dan bermakna pencetus gerakan perubahan bagi dunia shinobi di Amegakure.</p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+<script>
+    const btnClick = document.querySelector('.buttonclick');
+    const menu = document.querySelector('.menu-mobile');
+
+    btnClick.addEventListener("click", () => {
+        menu.classList.toggle('hidden');
+    });
+
+</script>
+</body>
+</html>
