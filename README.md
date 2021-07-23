@@ -1,5 +1,10 @@
-![Screenshoot Project](assets/sa1.png)
-![Screenshoot Project](assets/sa2.png)
+## Tailwind 2.0 Resposive
+## HOME
+
+![Screenshoot Project 1](assets/sa1.png)
+
+## BODY
+![Screenshoot Project 2](assets/sa2.png)
 
 ## Komposisi
 - HTML
